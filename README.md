@@ -38,3 +38,4 @@ Basic SysOp know-how is required to make it up and running but most of the work 
 	* vim
 	* mc
 	* tmux
+	* pip
