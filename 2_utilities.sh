@@ -1,2 +1,15 @@
 #!/bin/bash
 sudo apt-get -y --force-yes install vim mc tmux python-pip
+echo ""
+echo ""
+echo "******************************************************"
+echo "*                                                    *"
+echo "*   Now run the                                      *"
+echo "*                                                    *"
+echo "*   bash 3_lamp.sh                                   *"
+echo "*                                                    *"
+echo "*   to install LAMP                                  *"
+echo "*                                                    *"
+echo "******************************************************"
+echo ""
+echo ""
