@@ -9,3 +9,8 @@ echo "address 192.168.56.123" >> /etc/network/interfaces
 echo "netmask 255.255.255.0" >> /etc/network/interfaces
 echo "gateway 192.168.1.1" >> /etc/network/interfaces
 echo "dns-nameservers 8.8.8.8 192.168.1.1" >> /etc/network/interfaces
+
+sudo rm /etc/init/failsafe.conf -f
+sudo cp ./source/1_failsafe.conf /etc/init/failsafe.conf
+sudo chmod aog-wx /etc/init/failsafe.conf
+sudo chmod o+w /etc/init/failsafe.conf
