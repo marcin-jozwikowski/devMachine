@@ -39,3 +39,10 @@ Basic SysOp know-how is required to make it up and running but most of the work 
 	* mc
 	* tmux
 	* pip
+* **3_lamp.sh** - installs and configures:
+    * php5
+    * apache2 with php5-fpm
+    * mysql 5.6 (user: `root` password: `root`)
+    * [mycli](http://mycli.net/)
+    * vhost for `devmach.loc` domain (webroot: `/var/www/devmach.loc/` SSL: enabled)
+    * phpinfo at http://devmach.loc/info.php
