@@ -46,6 +46,7 @@ Basic SysOp know-how is required to make it up and running but most of the work 
     * [mycli](http://mycli.net/)
     * vhost for `devmach.loc` domain (webroot: `/var/www/devmach.loc/` SSL: enabled)
     * phpinfo at http://devmach.loc/info.php
+* **4_boot_to_terminal.sh** - configures GRUB to boot to terminal insted of Unity
     
 ### General Info
 * System boots with false warning *Booting system without full network configuration...*. It's network config it doesn't understand that's causing this. Everything works like a charm. 
