@@ -5,7 +5,7 @@ sudo add-apt-repository ppa:ondrej/php5-5.6 -y
 sudo apt-get update
 sudo apt-get -y --force-yes install php5-fpm php5-cli php5
 
-sudo a2enmod actions fastcgi alias ssl
+sudo a2enmod actions fastcgi alias ssl rewrite
 
 sudo cp ./source/3_amp_php5-fpm.conf /etc/apache2/conf-available/php5-fpm.conf
 sudo chmod o-x /etc/apache2/conf-available/php5-fpm.conf
