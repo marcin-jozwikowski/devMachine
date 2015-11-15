@@ -33,7 +33,7 @@ Basic SysOp know-how is required to make it up and running but most of the work 
 
 ### Script descriptions
 * **start.sh** - installs [GIT](https://git-scm.com/) and clones DevMachine repo.
-* **1_init.sh** - configures network connections for static IP. Installs and configures ssh-server.
+* **1_init.sh** - configures network connections for static IP. Installs and configures ssh-server. Adds `devmach` user with *sudo* permissions and password set to `dev`.
 * **2_utilities.sh** - installs and configures folllowing:
 	* [vim](http://www.vim.org/)
 	* [mc](https://www.midnight-commander.org/)
