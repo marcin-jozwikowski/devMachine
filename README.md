@@ -8,7 +8,7 @@ Basic SysOp know-how is required to make it up and running but most of the work 
 
 ### Installing a VM
 1. Download and instal [VM VirtualBox](https://www.virtualbox.org/)
-2. Download and unpack [Ubuntu Image](http://www.osboxes.org/ubuntu/). Write down or remember username and password for your image.
+2. Download and unpack [Ubuntu 14.04 Image](http://www.osboxes.org/ubuntu/). Write down or remember username and password for your image.
 3. Run VirtualBox and create a new machine:
 	* Choose name type and version along with RAM size
 	* When on *Hard Disk* step choose *Use an existing hard disk file* and point to downloaded *Ubuntu Image*. It's a good idea to copy the *Image* to VM directory first.
