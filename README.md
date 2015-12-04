@@ -39,14 +39,14 @@ Basic SysOp know-how is required to make it up and running but most of the work 
 	* [mc](https://www.midnight-commander.org/)
 	* [tmux](https://tmux.github.io/)
 	* [pip](https://pypi.python.org/pypi/pip)
-* **3_lamp.sh** - installs and configures:
+* **lamp.sh** - installs and configures:
     * php5
     * apache2 with php5-fpm
     * mysql 5.6 (user: `root` password: `root`)
     * [mycli](http://mycli.net/)
     * vhost for `devmach.loc` domain (webroot: `/var/www/devmach.loc/` SSL: enabled)
     * phpinfo at http://devmach.loc/info.php
-* **4_boot_to_terminal.sh** - configures GRUB to boot to terminal insted of Unity
+* **boot_to_terminal.sh** - configures GRUB to boot to terminal insted of Unity
     
 ### General Info
 * System boots with false warning *Booting system without full network configuration...*. It's network config it doesn't understand that's causing this. Everything works like a charm. 
