@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo bash ./source/apache_phpfpm.sh
 sudo bash ./source/mysql.sh
+mysql -u root -proot < ./source/x_mysql.sql
 sudo apt-get -y --force-yes install php5-mysql
 sudo service php5-fpm restart
 sudo service apache2 restart

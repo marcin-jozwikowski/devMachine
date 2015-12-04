@@ -3,7 +3,7 @@ sudo apt-get -y --force-yes install apache2-mpm-worker libapache2-mod-fastcgi
 
 sudo add-apt-repository ppa:ondrej/php5-5.6 -y
 sudo apt-get update
-sudo apt-get -y --force-yes install php5-fpm php5-cli php5
+sudo apt-get -y --force-yes install php5-gd php5-fpm php5-curl php5-cli php5-dev php-pear php5 
 
 sudo a2enmod actions fastcgi alias ssl rewrite
 
