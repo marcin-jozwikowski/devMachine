@@ -10,4 +10,7 @@ sed -i 's/SendEnv LANG LC_/#SendEnv LANG LC_/g' /etc/ssh/ssh_config
 sed -i 's/AcceptEnv LANG LC_/#AcceptEnv LANG LC_/g' /etc/ssh/sshd_config
 echo "" >> /etc/ssh/sshd_config
 echo "AllowUsers osboxes" >> /etc/ssh/sshd_config
+echo "" >> /etc/bash.bashrc
+echo 'export LC_ALL="en_ZA.UTF-8"' >> /etc/bash.bashrc
+echo 'export LC_CTYPE="en_ZA.UTF-8"' >> /etc/bash.bashrc
 restart ssh
